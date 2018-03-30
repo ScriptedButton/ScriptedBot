@@ -1,3 +1,7 @@
+# Cole Brooks
+# MIT License - 2018
+# Basic Data Storage System for Dictionaries
+
 import os
 import ast
 
