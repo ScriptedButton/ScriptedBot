@@ -17,14 +17,13 @@ class Song:
 
 a = EasyData("botdata.txt")
 temp_data = a.getAsDict()
-player = None
 
 music_queue = dict()
 players = dict()
 
 bot = commands.Bot(command_prefix="!", description="Experimental bot.")
 
-logging = True
+#logging = True
 choices = dict()
 
 async def checkDM(userid):
